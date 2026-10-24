@@ -1,6 +1,6 @@
 // Orbi API Client
 
-const API_BASE = '/api';
+const API_BASE = 'https://oribi-backend-nnzi.onrender.com/api';;
 
 export function getAuthToken(): string {
   return localStorage.getItem('orbi_token') || '';
